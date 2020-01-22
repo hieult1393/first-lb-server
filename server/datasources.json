@@ -1,0 +1,23 @@
+{
+  "mydb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:root@localhost/mydb",
+    "database": "mydb",
+    "password": "root",
+    "name": "mydb",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "mongoDs": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "shops",
+    "password": "root",
+    "name": "mongoDs",
+    "user": "demo",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

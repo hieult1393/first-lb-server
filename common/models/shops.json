@@ -1,0 +1,38 @@
+{
+  "name": "shops",
+  "plural": "shops",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "opening shop"
+    },
+    "isOpen": {
+      "type": "boolean",
+      "default": false
+    },
+    "address": {
+      "type": "string",
+      "default": "hcmc"
+    },
+    "emp_nums": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "image_url": {
+      "type": "string",
+      "required": false,
+      "default": "https://thumbs.dreamstime.com/z/shop-building-colorful-isolated-white-33822015.jpg"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
